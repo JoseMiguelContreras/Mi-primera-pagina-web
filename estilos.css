@@ -1,0 +1,197 @@
+* {margin: 0;}
+*{padding: 0;}
+
+html{
+    background-color:  #3a3d47;
+}
+
+body {
+    width: 1200px;
+    height: 1350px;
+    margin: auto;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Verdana;
+}
+
+nav {
+    width: 1200px;
+    height: 150px;
+    background-color:  #1551a1;
+
+}
+
+header{
+    width: 1200px;
+    height: 430px;
+    background-color: coral;
+}
+
+div{
+    width: 1200px;
+    height: 70px;
+}
+
+main{
+    width: 1200px;
+    height: 560px;
+    background-color: white;
+    text-align: center;
+}
+
+footer{
+    width: 1200px;
+    height: 140px;
+    background-color: #062348;
+}
+
+
+
+/*SUB DIVICION*/
+
+#logonav{
+    width: 450px;
+    height: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    width: 750px;
+    height: 150px;
+    background-color: transparent;
+    float: left;
+}
+
+nav ul{
+    width: 750px;
+    height: 150px;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 45px 0 0 50px;
+}
+
+nav ul li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px;
+
+}
+
+/*Efecto hove en el menu*/
+
+nav ul li a:hover { 
+    background-color: #062348;
+}
+
+.imgbanner{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    color: #ff7600;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#cajas{
+    width: 380px;
+    height: 550px;
+    display:inline-block;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.imgserv:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.serv{
+    background-color: #1551a1;
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+    margin-top: -4px;
+}
+
+.parrafos{
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 35px;
+}
+
+.btn{
+    background-color: #1551a1;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.btn:hover{
+    background-color: #083a7b;
+}
+
+.btn:active{
+    box-shadow: none;
+}
+
+#logofoot{
+    width: 600px;
+    height: 140px;
+    float: left;
+    background-color: #062348;
+    text-align: center;
+}
+
+#iconos{
+    width: 600px;
+    height: 140px;
+    float: left;
+    background-color: #062348;
+    text-align: center;
+}
+
+.logo2{
+    margin-top: 15px;    
+}
+
+
+.parrafos23{
+    color: white;
+    margin-top: 5px;
+    padding: 5px
+}
+
+.siguenos{
+    color: white;
+    margin-top: 20px;
+}
+
+.ico{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
